@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="thirty_text">#FAECEC</color>
+    <color name="button_color">#9276DF</color>
+    <color name="button_color2">#FF0026</color>
+    <color name="background_color">#F5F5F5</color>
+    <color name="header_background">#F8C300</color>
+    <color name="recycler_background">#FFFFFF</color>
+    <color name="divider">#E0E0E0</color>
+</resources>

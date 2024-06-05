@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/background_color">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Integrantes"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textColor="@color/primary_text"
+        android:background="@color/header_background"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/divider"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome:Guilherme Loureiro | RM:88722"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:textColor="@color/secondary_text"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/divider"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome:Tiago Gomes | RM:95849"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:textColor="@color/secondary_text"/>
+</LinearLayout>

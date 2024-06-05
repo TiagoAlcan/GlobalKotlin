@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/background_color"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vai de Praia"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textColor="@color/primary_text"
+        android:background="@color/header_background"/>
+
+    <EditText
+        android:id="@+id/etNomePraia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome da Praia"
+        android:padding="16dp"
+        android:background="@drawable/edittext_background"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/etCidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cidade"
+        android:padding="16dp"
+        android:background="@drawable/edittext_background"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/etEstado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Estado"
+        android:padding="16dp"
+        android:background="@drawable/edittext_background"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnIncluir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Incluir"
+        android:padding="16dp"
+        android:backgroundTint="@color/button_color"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="16dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/recycler_background"/>
+</LinearLayout>
